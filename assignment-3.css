@@ -10,6 +10,25 @@
  */
 
 
-@media screen and (max-width: 900px) {
 
+
+section {
+background-color: antiquewhite;
+display: flex;
+flex-direction: row;
+max-width: 1400px;
+}
+
+article {
+    flex: 1;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    section {
+        flex-direction: column;
+    }
 }

@@ -8,4 +8,110 @@
     align-items
  */
 
+/*             ÖVRE RADEN                  */
 
+header {
+font-family: sans-serif;
+}
+
+ #head-menu {
+    display: flex;
+    padding: px;
+    background-color:antiquewhite;
+    justify-content: center;
+    font-size: 17px;
+
+ }
+
+
+ #site-brand {
+    display: flex;
+    font-size: 20px;
+    font-weight:bold;
+    padding: 10px;
+    margin-right: 50px;
+
+ }
+
+.horizontal-list {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.horizontal-list li a {
+    text-decoration: none;
+    color: black;
+ }
+
+ .horizontal-list li a:hover {
+    color: blue;
+
+ }
+
+ .horizontal-list li {
+    margin-right: 20px;
+
+ }
+
+#login {
+    display: flex;
+    padding: 15px;
+    margin-left: 50px;
+    margin-right: 20px;
+    
+}
+
+
+#promotion {
+    display: flex;
+    padding: 15px;
+    margin-left: 10px;
+    background-color: brown;
+    
+}
+
+#promotion:hover {
+    padding: 15px;
+    background-color:black;
+}
+
+#login a {
+    text-decoration: none;
+    color: black;
+}
+
+#promotion a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 
+        -1px -1px 0 black,  
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+/*                 NEDRE RADEN                 */
+
+#sub-menu {
+    display: flex;
+    padding: px;
+    background-color:rgb(34, 34, 34);
+    justify-content: center;
+    font-size: 16px;
+}
+
+.horizontal-list2 {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.horizontal-list2 li a {
+    text-decoration: none;
+    color: white;
+ }
+
+ .horizontal-list2 li {
+    margin-right: 20px;
+ }

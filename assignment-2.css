@@ -6,4 +6,27 @@
     border
  */
 
+.alltihop {
+    position: flex;
+    flex-direction: column;
+}
 
+.bigbox {
+    order: 2;
+    border: 1px solid black;
+    width: 400px;
+    padding: 20px;
+    margin-top: 42px;
+    
+}
+
+.Sale {
+    order: 1;
+    width: 60px;
+    border: 1px solid black;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
